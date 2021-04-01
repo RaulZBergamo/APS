@@ -1,0 +1,47 @@
+#top-nav{
+    position: sticky;
+    top: 0; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #111;
+}
+
+#top-nav #brand {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1em;
+}
+
+#top-nav #brand h4 {
+    font-size: 18pt;
+    margin-left: 0.5em;    
+}
+
+#top-nav #brand img {
+    filter: hue-rotate(-80deg);
+    width: 12%;
+}
+
+#top-nav a {
+    color: white;
+    border: 1pt dashed white;
+    border-radius: 2em;
+    line-height: 0.5em;
+    text-align: center;
+    padding: 1em;
+    font-size: 18pt;
+}
+
+#top-nav a:hover{
+    border: 1pt solid white;
+    background-color: white;
+    transform: scale(1.1);
+    color: black;
+}
+
+#top-nav.active{
+    background-color: #4caf50;
+    color: white;
+} 

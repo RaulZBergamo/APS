@@ -1,0 +1,42 @@
+.materia {
+    color: #fff;
+}
+
+#sp{
+    text-indent: 0px; /*Tirar o paragrafo dos nome*/
+}
+
+.names {
+    font-size: 15px;
+    text-align: center;
+}
+
+#figure-cevada {
+    float: left;
+    padding: 3em;
+    font-size: 12pt;   
+    text-align: center;
+    color: white;
+}
+
+.main-materia {
+    float: right;
+    font-size: 12pt;
+}
+
+
+button{
+    color: #fbfcfd;
+    padding: 10px 25px;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    outline: none; 
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover{
+    background-color: #6d6d6d;
+    transform: scale(1.2);
+}
