@@ -25,7 +25,9 @@
     background-color: #111;
 }
 
-#div-id{}
+#div-id{
+    text-shadow: 0;
+}
 
 .div-p-dark{
     color: white;
