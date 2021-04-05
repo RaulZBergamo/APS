@@ -5,6 +5,7 @@
     justify-content: space-around;
     align-items: center;
     background-color: #111;
+    z-index: 2;
 }
 
 #top-nav #brand {

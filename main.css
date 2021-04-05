@@ -48,6 +48,13 @@ section#sec-1 {
     color: white;
 }
 
+#sec-2 .título {
+    position: relative;
+    text-align: center;
+    font-size: 32pt;
+    z-index: 1;
+}
+
 .rolarBaixo {
     height: 50px;
     width: 30px;
