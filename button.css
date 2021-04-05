@@ -1,0 +1,36 @@
+#button {
+    background-color:  transparent;
+    border: 1pt dashed white;
+    border-radius: 2em;
+    line-height: 0.5em;
+    text-align: center;
+    padding: 1em;
+    font-size: 18pt;
+    color: white;
+    cursor: grab;
+}
+
+#button:hover{
+    border: 1pt solid white;
+    background-color: white;
+    transform: scale(1.1);
+    color: black;
+}
+
+.light-theme{
+    background-color: #fff;
+}
+
+.dark-theme{
+    background-color: #111;
+}
+
+#div-id{}
+
+.div-p-dark{
+    color: white;
+}
+
+.div-p-light{
+    color: black;
+}

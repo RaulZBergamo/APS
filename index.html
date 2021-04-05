@@ -14,6 +14,8 @@
 
     <link rel="stylesheet" href="footer.css">
 
+    <link rel="stylesheet" href="button.css">
+
     <title> APS - TESTE </title>
 
     <script src="dark_light_modes.js"></script>
@@ -46,17 +48,17 @@
         <a href="https://www.unip.br/" target="_blank">Home</a>
         <a href="https://www.unip.br/universidade/missao.aspx?lang=pt#:~:text=A%20Universidade%20Paulista%20%E2%80%93%20UNIP%20tem,a%20solidariedade%2C%20a%20inclus%C3%A3o%2C%20os" class="active" target="_blank"> Quem somos nós </a>
         <a href="https://www.unip.br/atendimento/" target="_blank"> Contato </a>
-        <button name="DarkMode" type="checkbox" id="button">
+        <button name="DarkMode" type="checkbox" id="button" onclick="myFunction()">
               <label for="DarkMode"> Escuro </label>
         </button>
     </nav> 
 
-    <section id="sec-2">
+    <section id="sec-2" class="sec-2">
         
         <h1 class="título" style="color: white;">Informações sobre a Cevada</h1>
         <hr>
 
-        <p class="names" id="sp"> 
+        <p class="names" id="sp" > 
                 João Pedro Martins, Raul Zinezi Bergamo, Ronald do Prado Alcântra e Vithor Tinti Pedroso. Colaboração para a UNIP e da  UNIP em São José do Rio Preto
         </p>
 
@@ -67,60 +69,61 @@
 
        
         <article id="matéria">
-            <p>
-                Purus risus enim primis. Dapibus est nec litora dis felis. Massa ad convallis euismod tellus enim integer! Inceptos, elit velit semper aliquam quis torquent erat. Laoreet pellentesque dictum fames nascetur fames cum eget nec pharetra velit ultrices. Porttitor nostra quis platea nascetur integer habitant, eu eros orci. Molestie ultrices tellus sapien volutpat vitae accumsan fringilla proin litora. Id lacus ultricies nam. Lorem consectetur ante?
-            </p>
-            <p>
-                Purus risus enim primis. Dapibus est nec litora dis felis. Massa ad convallis euismod tellus enim integer! Inceptos, elit velit semper aliquam quis torquent erat. Laoreet pellentesque dictum fames nascetur fames cum eget nec pharetra velit ultrices. Porttitor nostra quis platea nascetur integer habitant, eu eros orci. Molestie ultrices tellus sapien volutpat vitae accumsan fringilla proin litora. Id lacus ultricies nam. Lorem consectetur ante?
-            </p>
-            <p>
-                Leo conubia volutpat mollis porttitor sem dis. Sociosqu mollis id eleifend neque nisi dis turpis. Scelerisque lacus aptent taciti fusce habitant. Curabitur luctus lacinia urna magna dictumst varius, pharetra interdum elit bibendum duis. Arcu convallis mattis neque, dui netus. Facilisi nisl phasellus tristique faucibus rutrum magna fames? Convallis magnis imperdiet quisque consectetur suspendisse mattis. Ut nibh nisl ornare posuere lectus gravida cursus cubilia nullam. Lacinia ac tellus fermentum. Quisque non sodales, pretium arcu justo. Sociis facilisi.
-            </p>
-            <p>
-                Auctor tellus nam, leo integer interdum dignissim turpis mollis donec vivamus pretium justo. Taciti cras leo arcu curabitur libero aliquam taciti gravida elementum aliquet donec aliquet. Non, senectus suscipit molestie vivamus pulvinar cras sodales. Vel dictumst lacinia euismod. Natoque pretium ullamcorper primis curae; dui interdum curabitur euismod dictum, magna praesent! Congue metus curabitur sodales gravida dictumst donec porta sodales. Malesuada diam dignissim maecenas sed lectus semper a magna bibendum. Dui.
-            </p>
-            <p>
-                Bibendum aliquam, habitant mauris penatibus augue magnis cras ultricies euismod est fames purus. Suscipit tincidunt primis gravida pharetra porttitor sollicitudin tempor ad, libero elit torquent per. Commodo nullam donec est sapien aptent, nec massa eleifend ligula viverra dictum! Commodo gravida consectetur dapibus mi odio sollicitudin consectetur. Massa pharetra curae; praesent bibendum dictumst varius tristique. Elit semper integer potenti ultricies natoque leo neque adipiscing consequat eget! Amet.
-            </p>
-            <p>
-                Purus risus enim primis. Dapibus est nec litora dis felis. Massa ad convallis euismod tellus enim integer! Inceptos, elit velit semper aliquam quis torquent erat. Laoreet pellentesque dictum fames nascetur fames cum eget nec pharetra velit ultrices. Porttitor nostra quis platea nascetur integer habitant, eu eros orci. Molestie ultrices tellus sapien volutpat vitae accumsan fringilla proin litora. Id lacus ultricies nam. Lorem consectetur ante?
-            </p>
-            <p>
-                Id consectetur elementum taciti posuere tincidunt. Mus hendrerit etiam ridiculus semper est montes malesuada lectus. Morbi turpis lobortis quam blandit arcu maecenas. Vestibulum suspendisse imperdiet netus netus id et. Netus tincidunt tempor odio magnis. Luctus rutrum montes aliquet phasellus. Dictumst quisque, maecenas lectus taciti natoque. Gravida ipsum sodales phasellus; justo consequat convallis ligula dis dolor et ornare. Eu lorem erat tortor habitant blandit urna torquent elit. Commodo curae; dui egestas cubilia lobortis natoque posuere nec magna pellentesque? Malesuada, scelerisque facilisi erat sociosqu magnis. Id aenean amet donec nisi nostra condimentum habitasse, ultrices vivamus. Orci tellus semper quam.
-            </p>
+            <div class="div-p-dark" id="div-id">
+                <p>
+                    Purus risus enim primis. Dapibus est nec litora dis felis. Massa ad convallis euismod tellus enim integer! Inceptos, elit velit semper aliquam quis torquent erat. Laoreet pellentesque dictum fames nascetur fames cum eget nec pharetra velit ultrices. Porttitor nostra quis platea nascetur integer habitant, eu eros orci. Molestie ultrices tellus sapien volutpat vitae accumsan fringilla proin litora. Id lacus ultricies nam. Lorem consectetur ante?
+                </p>
+                <p>
+                    Purus risus enim primis. Dapibus est nec litora dis felis. Massa ad convallis euismod tellus enim integer! Inceptos, elit velit semper aliquam quis torquent erat. Laoreet pellentesque dictum fames nascetur fames cum eget nec pharetra velit ultrices. Porttitor nostra quis platea nascetur integer habitant, eu eros orci. Molestie ultrices tellus sapien volutpat vitae accumsan fringilla proin litora. Id lacus ultricies nam. Lorem consectetur ante?
+                </p>
+                <p>
+                    Leo conubia volutpat mollis porttitor sem dis. Sociosqu mollis id eleifend neque nisi dis turpis. Scelerisque lacus aptent taciti fusce habitant. Curabitur luctus lacinia urna magna dictumst varius, pharetra interdum elit bibendum duis. Arcu convallis mattis neque, dui netus. Facilisi nisl phasellus tristique faucibus rutrum magna fames? Convallis magnis imperdiet quisque consectetur suspendisse mattis. Ut nibh nisl ornare posuere lectus gravida cursus cubilia nullam. Lacinia ac tellus fermentum. Quisque non sodales, pretium arcu justo. Sociis facilisi.
+                </p>
+                <p>
+                    Auctor tellus nam, leo integer interdum dignissim turpis mollis donec vivamus pretium justo. Taciti cras leo arcu curabitur libero aliquam taciti gravida elementum aliquet donec aliquet. Non, senectus suscipit molestie vivamus pulvinar cras sodales. Vel dictumst lacinia euismod. Natoque pretium ullamcorper primis curae; dui interdum curabitur euismod dictum, magna praesent! Congue metus curabitur sodales gravida dictumst donec porta sodales. Malesuada diam dignissim maecenas sed lectus semper a magna bibendum. Dui.
+                </p>
+                <p>
+                    Bibendum aliquam, habitant mauris penatibus augue magnis cras ultricies euismod est fames purus. Suscipit tincidunt primis gravida pharetra porttitor sollicitudin tempor ad, libero elit torquent per. Commodo nullam donec est sapien aptent, nec massa eleifend ligula viverra dictum! Commodo gravida consectetur dapibus mi odio sollicitudin consectetur. Massa pharetra curae; praesent bibendum dictumst varius tristique. Elit semper integer potenti ultricies natoque leo neque adipiscing consequat eget! Amet.
+                </p>
+                <p>
+                    Purus risus enim primis. Dapibus est nec litora dis felis. Massa ad convallis euismod tellus enim integer! Inceptos, elit velit semper aliquam quis torquent erat. Laoreet pellentesque dictum fames nascetur fames cum eget nec pharetra velit ultrices. Porttitor nostra quis platea nascetur integer habitant, eu eros orci. Molestie ultrices tellus sapien volutpat vitae accumsan fringilla proin litora. Id lacus ultricies nam. Lorem consectetur ante?
+                </p>
+                <p>
+                    Id consectetur elementum taciti posuere tincidunt. Mus hendrerit etiam ridiculus semper est montes malesuada lectus. Morbi turpis lobortis quam blandit arcu maecenas. Vestibulum suspendisse imperdiet netus netus id et. Netus tincidunt tempor odio magnis. Luctus rutrum montes aliquet phasellus. Dictumst quisque, maecenas lectus taciti natoque. Gravida ipsum sodales phasellus; justo consequat convallis ligula dis dolor et ornare. Eu lorem erat tortor habitant blandit urna torquent elit. Commodo curae; dui egestas cubilia lobortis natoque posuere nec magna pellentesque? Malesuada, scelerisque facilisi erat sociosqu magnis. Id aenean amet donec nisi nostra condimentum habitasse, ultrices vivamus. Orci tellus semper quam.
+                </p>
 
-            <p>
-                Leo conubia volutpat mollis porttitor sem dis. Sociosqu mollis id eleifend neque nisi dis turpis. Scelerisque lacus aptent taciti fusce habitant. Curabitur luctus lacinia urna magna dictumst varius, pharetra interdum elit bibendum duis. Arcu convallis mattis neque, dui netus. Facilisi nisl phasellus tristique faucibus rutrum magna fames? Convallis magnis imperdiet quisque consectetur suspendisse mattis. Ut nibh nisl ornare posuere lectus gravida cursus cubilia nullam. Lacinia ac tellus fermentum. Quisque non sodales, pretium arcu justo. Sociis facilisi.
-            </p>
-            <p>
-                Auctor tellus nam, leo integer interdum dignissim turpis mollis donec vivamus pretium justo. Taciti cras leo arcu curabitur libero aliquam taciti gravida elementum aliquet donec aliquet. Non, senectus suscipit molestie vivamus pulvinar cras sodales. Vel dictumst lacinia euismod. Natoque pretium ullamcorper primis curae; dui interdum curabitur euismod dictum, magna praesent! Congue metus curabitur sodales gravida dictumst donec porta sodales. Malesuada diam dignissim maecenas sed lectus semper a magna bibendum. Dui.
-            </p>
-            <p>
-                Bibendum aliquam, habitant mauris penatibus augue magnis cras ultricies euismod est fames purus. Suscipit tincidunt primis gravida pharetra porttitor sollicitudin tempor ad, libero elit torquent per. Commodo nullam donec est sapien aptent, nec massa eleifend ligula viverra dictum! Commodo gravida consectetur dapibus mi odio sollicitudin consectetur. Massa pharetra curae; praesent bibendum dictumst varius tristique. Elit semper integer potenti ultricies natoque leo neque adipiscing consequat eget! Amet.
-            </p>
-            <p>
-                Purus risus enim primis. Dapibus est nec litora dis felis. Massa ad convallis euismod tellus enim integer! Inceptos, elit velit semper aliquam quis torquent erat. Laoreet pellentesque dictum fames nascetur fames cum eget nec pharetra velit ultrices. Porttitor nostra quis platea nascetur integer habitant, eu eros orci. Molestie ultrices tellus sapien volutpat vitae accumsan fringilla proin litora. Id lacus ultricies nam. Lorem consectetur ante?
-            </p>
-            <p>
-                Id consectetur elementum taciti posuere tincidunt. Mus hendrerit etiam ridiculus semper est montes malesuada lectus. Morbi turpis lobortis quam blandit arcu maecenas. Vestibulum suspendisse imperdiet netus netus id et. Netus tincidunt tempor odio magnis. Luctus rutrum montes aliquet phasellus. Dictumst quisque, maecenas lectus taciti natoque. Gravida ipsum sodales phasellus; justo consequat convallis ligula dis dolor et ornare. Eu lorem erat tortor habitant blandit urna torquent elit. Commodo curae; dui egestas cubilia lobortis natoque posuere nec magna pellentesque? Malesuada, scelerisque facilisi erat sociosqu magnis. Id aenean amet donec nisi nostra condimentum habitasse, ultrices vivamus. Orci tellus semper quam.
-            </p>
+                <p>
+                    Leo conubia volutpat mollis porttitor sem dis. Sociosqu mollis id eleifend neque nisi dis turpis. Scelerisque lacus aptent taciti fusce habitant. Curabitur luctus lacinia urna magna dictumst varius, pharetra interdum elit bibendum duis. Arcu convallis mattis neque, dui netus. Facilisi nisl phasellus tristique faucibus rutrum magna fames? Convallis magnis imperdiet quisque consectetur suspendisse mattis. Ut nibh nisl ornare posuere lectus gravida cursus cubilia nullam. Lacinia ac tellus fermentum. Quisque non sodales, pretium arcu justo. Sociis facilisi.
+                </p>
+                <p>
+                    Auctor tellus nam, leo integer interdum dignissim turpis mollis donec vivamus pretium justo. Taciti cras leo arcu curabitur libero aliquam taciti gravida elementum aliquet donec aliquet. Non, senectus suscipit molestie vivamus pulvinar cras sodales. Vel dictumst lacinia euismod. Natoque pretium ullamcorper primis curae; dui interdum curabitur euismod dictum, magna praesent! Congue metus curabitur sodales gravida dictumst donec porta sodales. Malesuada diam dignissim maecenas sed lectus semper a magna bibendum. Dui.
+                </p>
+                <p>
+                    Bibendum aliquam, habitant mauris penatibus augue magnis cras ultricies euismod est fames purus. Suscipit tincidunt primis gravida pharetra porttitor sollicitudin tempor ad, libero elit torquent per. Commodo nullam donec est sapien aptent, nec massa eleifend ligula viverra dictum! Commodo gravida consectetur dapibus mi odio sollicitudin consectetur. Massa pharetra curae; praesent bibendum dictumst varius tristique. Elit semper integer potenti ultricies natoque leo neque adipiscing consequat eget! Amet.
+                </p>
+                <p>
+                    Purus risus enim primis. Dapibus est nec litora dis felis. Massa ad convallis euismod tellus enim integer! Inceptos, elit velit semper aliquam quis torquent erat. Laoreet pellentesque dictum fames nascetur fames cum eget nec pharetra velit ultrices. Porttitor nostra quis platea nascetur integer habitant, eu eros orci. Molestie ultrices tellus sapien volutpat vitae accumsan fringilla proin litora. Id lacus ultricies nam. Lorem consectetur ante?
+                </p>
+                <p>
+                    Id consectetur elementum taciti posuere tincidunt. Mus hendrerit etiam ridiculus semper est montes malesuada lectus. Morbi turpis lobortis quam blandit arcu maecenas. Vestibulum suspendisse imperdiet netus netus id et. Netus tincidunt tempor odio magnis. Luctus rutrum montes aliquet phasellus. Dictumst quisque, maecenas lectus taciti natoque. Gravida ipsum sodales phasellus; justo consequat convallis ligula dis dolor et ornare. Eu lorem erat tortor habitant blandit urna torquent elit. Commodo curae; dui egestas cubilia lobortis natoque posuere nec magna pellentesque? Malesuada, scelerisque facilisi erat sociosqu magnis. Id aenean amet donec nisi nostra condimentum habitasse, ultrices vivamus. Orci tellus semper quam.
+                </p>
 
-            <p>
-                Leo conubia volutpat mollis porttitor sem dis. Sociosqu mollis id eleifend neque nisi dis turpis. Scelerisque lacus aptent taciti fusce habitant. Curabitur luctus lacinia urna magna dictumst varius, pharetra interdum elit bibendum duis. Arcu convallis mattis neque, dui netus. Facilisi nisl phasellus tristique faucibus rutrum magna fames? Convallis magnis imperdiet quisque consectetur suspendisse mattis. Ut nibh nisl ornare posuere lectus gravida cursus cubilia nullam. Lacinia ac tellus fermentum. Quisque non sodales, pretium arcu justo. Sociis facilisi.
-            </p>
-            <p>
-                Auctor tellus nam, leo integer interdum dignissim turpis mollis donec vivamus pretium justo. Taciti cras leo arcu curabitur libero aliquam taciti gravida elementum aliquet donec aliquet. Non, senectus suscipit molestie vivamus pulvinar cras sodales. Vel dictumst lacinia euismod. Natoque pretium ullamcorper primis curae; dui interdum curabitur euismod dictum, magna praesent! Congue metus curabitur sodales gravida dictumst donec porta sodales. Malesuada diam dignissim maecenas sed lectus semper a magna bibendum. Dui.
-            </p>
-            <p>
-                Bibendum aliquam, habitant mauris penatibus augue magnis cras ultricies euismod est fames purus. Suscipit tincidunt primis gravida pharetra porttitor sollicitudin tempor ad, libero elit torquent per. Commodo nullam donec est sapien aptent, nec massa eleifend ligula viverra dictum! Commodo gravida consectetur dapibus mi odio sollicitudin consectetur. Massa pharetra curae; praesent bibendum dictumst varius tristique. Elit semper integer potenti ultricies natoque leo neque adipiscing consequat eget! Amet.
-            </p>
-            <p>
-                Purus risus enim primis. Dapibus est nec litora dis felis. Massa ad convallis euismod tellus enim integer! Inceptos, elit velit semper aliquam quis torquent erat. Laoreet pellentesque dictum fames nascetur fames cum eget nec pharetra velit ultrices. Porttitor nostra quis platea nascetur integer habitant, eu eros orci. Molestie ultrices tellus sapien volutpat vitae accumsan fringilla proin litora. Id lacus ultricies nam. Lorem consectetur ante?
-            </p>
-            <p>
-                Id consectetur elementum taciti posuere tincidunt. Mus hendrerit etiam ridiculus semper est montes malesuada lectus. Morbi turpis lobortis quam blandit arcu maecenas. Vestibulum suspendisse imperdiet netus netus id et. Netus tincidunt tempor odio magnis. Luctus rutrum montes aliquet phasellus. Dictumst quisque, maecenas lectus taciti natoque. Gravida ipsum sodales phasellus; justo consequat convallis ligula dis dolor et ornare. Eu lorem erat tortor habitant blandit urna torquent elit. Commodo curae; dui egestas cubilia lobortis natoque posuere nec magna pellentesque? Malesuada, scelerisque facilisi erat sociosqu magnis. Id aenean amet donec nisi nostra condimentum habitasse, ultrices vivamus. Orci tellus semper quam.
-            </p>
-            
+                <p>
+                    Leo conubia volutpat mollis porttitor sem dis. Sociosqu mollis id eleifend neque nisi dis turpis. Scelerisque lacus aptent taciti fusce habitant. Curabitur luctus lacinia urna magna dictumst varius, pharetra interdum elit bibendum duis. Arcu convallis mattis neque, dui netus. Facilisi nisl phasellus tristique faucibus rutrum magna fames? Convallis magnis imperdiet quisque consectetur suspendisse mattis. Ut nibh nisl ornare posuere lectus gravida cursus cubilia nullam. Lacinia ac tellus fermentum. Quisque non sodales, pretium arcu justo. Sociis facilisi.
+                </p>
+                <p>
+                    Auctor tellus nam, leo integer interdum dignissim turpis mollis donec vivamus pretium justo. Taciti cras leo arcu curabitur libero aliquam taciti gravida elementum aliquet donec aliquet. Non, senectus suscipit molestie vivamus pulvinar cras sodales. Vel dictumst lacinia euismod. Natoque pretium ullamcorper primis curae; dui interdum curabitur euismod dictum, magna praesent! Congue metus curabitur sodales gravida dictumst donec porta sodales. Malesuada diam dignissim maecenas sed lectus semper a magna bibendum. Dui.
+                </p>
+                <p>
+                    Bibendum aliquam, habitant mauris penatibus augue magnis cras ultricies euismod est fames purus. Suscipit tincidunt primis gravida pharetra porttitor sollicitudin tempor ad, libero elit torquent per. Commodo nullam donec est sapien aptent, nec massa eleifend ligula viverra dictum! Commodo gravida consectetur dapibus mi odio sollicitudin consectetur. Massa pharetra curae; praesent bibendum dictumst varius tristique. Elit semper integer potenti ultricies natoque leo neque adipiscing consequat eget! Amet.
+                </p>
+                <p>
+                    Purus risus enim primis. Dapibus est nec litora dis felis. Massa ad convallis euismod tellus enim integer! Inceptos, elit velit semper aliquam quis torquent erat. Laoreet pellentesque dictum fames nascetur fames cum eget nec pharetra velit ultrices. Porttitor nostra quis platea nascetur integer habitant, eu eros orci. Molestie ultrices tellus sapien volutpat vitae accumsan fringilla proin litora. Id lacus ultricies nam. Lorem consectetur ante?
+                </p>
+                <p>
+                    Id consectetur elementum taciti posuere tincidunt. Mus hendrerit etiam ridiculus semper est montes malesuada lectus. Morbi turpis lobortis quam blandit arcu maecenas. Vestibulum suspendisse imperdiet netus netus id et. Netus tincidunt tempor odio magnis. Luctus rutrum montes aliquet phasellus. Dictumst quisque, maecenas lectus taciti natoque. Gravida ipsum sodales phasellus; justo consequat convallis ligula dis dolor et ornare. Eu lorem erat tortor habitant blandit urna torquent elit. Commodo curae; dui egestas cubilia lobortis natoque posuere nec magna pellentesque? Malesuada, scelerisque facilisi erat sociosqu magnis. Id aenean amet donec nisi nostra condimentum habitasse, ultrices vivamus. Orci tellus semper quam.
+                </p>
+            </div> 
         </article>
 
         <footer>

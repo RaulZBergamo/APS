@@ -38,14 +38,9 @@ section#sec-1 {
 }
 
 #sec-2 {
-    background-color: #111;
     align-items: initial;
     justify-content: center;
     padding: 60px;
-}
-
-#sec-2 p {
-    color: white;
 }
 
 #sec-2 .título {
