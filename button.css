@@ -1,4 +1,4 @@
-#button {
+#btn_light_dark {
     background-color:  transparent;
     border: 1pt dashed white;
     border-radius: 2em;
@@ -7,10 +7,10 @@
     padding: 1em;
     font-size: 18pt;
     color: white;
-    cursor: grab;
+    cursor: pointer;
 }
 
-#button:hover{
+#btn_light_dark:hover{
     border: 1pt solid white;
     background-color: white;
     transform: scale(1.1);
@@ -19,20 +19,10 @@
 
 .light-theme{
     background-color: #fff;
+    color: black;
 }
 
 .dark-theme{
     background-color: #111;
-}
-
-#div-id{
-    text-shadow: 0;
-}
-
-.div-p-dark{
     color: white;
-}
-
-.div-p-light{
-    color: black;
 }
