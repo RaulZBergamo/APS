@@ -5,7 +5,7 @@ function myFunction(){
 
         document.getElementById("sec-2").classList.add('light-theme');
 
-        document.getElementById("btn_light_dark").innerText = "Claro";
+        document.getElementById("btn_light_dark").innerText = "Escuro";
 
     } else {
 
@@ -13,6 +13,10 @@ function myFunction(){
 
         document.getElementById("sec-2").classList.add('dark-theme');
 
-        document.getElementById("btn_light_dark").innerText = "Escuro";
+        document.getElementById("btn_light_dark").innerText = "Claro";
     } 
+}
+
+function usrInput(){
+
 }
