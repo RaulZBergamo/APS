@@ -48,11 +48,11 @@
     color: white;
 } 
 
-#top-nav .search .search-txt {
+#top-nav .search input[type="text"] {
     position: relative;
     margin-left: 370px;
     border: 5pt solid #fff;
-    border-right: 25pt solid #fff;
+    width: 35%;
     border-radius: 25pt;
 }
 
