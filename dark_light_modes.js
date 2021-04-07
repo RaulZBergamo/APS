@@ -16,7 +16,3 @@ function myFunction(){
         document.getElementById("btn_light_dark").innerText = "Claro";
     } 
 }
-
-function usrInput(){
-    var text = document.getElementById('input1').value;    
-}
