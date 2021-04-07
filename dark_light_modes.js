@@ -18,5 +18,5 @@ function myFunction(){
 }
 
 function usrInput(){
-
+    var text = document.getElementById('input1').value;    
 }
