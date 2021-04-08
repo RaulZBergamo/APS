@@ -39,8 +39,16 @@
 #top-nav a:hover{
     border: 1pt solid white;
     background-color: white;
-    transform: scale(1.1);
     color: black;
+    animation-name: btn-anim;
+    animation-duration: 250ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes btn-anim {
+    100% {
+        transform: scale(1.1);
+    }
 }
 
 #top-nav.active{
