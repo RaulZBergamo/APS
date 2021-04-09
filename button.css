@@ -14,8 +14,16 @@
 #btn_light_dark:hover{
     border: 1pt solid white;
     background-color: white;
-    transform: scale(1.1);
     color: black;
+    animation-name: btn-light-anim;
+    animation-duration: 250ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes btn-light-anim {
+    100% {
+        transform: scale(1.1);
+    }
 }
 
 .light-theme{
