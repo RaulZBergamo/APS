@@ -24,6 +24,8 @@
 }
 
 .dark-theme{
-    background-color: #111;
+    /*background-color: #111;*/
+    background-color: #2d3436;
+    background-image: linear-gradient(345deg, #222222 0%, #111 74%);
     color: white;
 }
