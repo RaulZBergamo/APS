@@ -25,3 +25,13 @@
     font-size: 12pt;
 }
 
+
+#div-r{
+    display: flex;
+    justify-items: right;
+}
+
+#div-l{
+    display: flex;
+    justify-items: left;
+}
