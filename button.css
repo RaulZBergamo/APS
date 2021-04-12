@@ -27,12 +27,12 @@
 }
 
 .light-theme{
-    background-color: #fff;
+    background-color: #ffffff;
     color: black;
 }
 
 .dark-theme{
     background-color: #2d3436;
-    background-image: linear-gradient(345deg, #222222 0%, #111 74%);
+    background-image: linear-gradient(345deg, #414141 0%, #111 74%);
     color: white;
 }
