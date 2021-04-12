@@ -2,9 +2,9 @@
     position: sticky;
     top: 0; 
     display: flex;
-    justify-content: space-around;
     align-items: center;
     background-color: #111;
+    z-index: 2;
 }
 
 #top-nav #brand {
@@ -30,6 +30,8 @@
     border-radius: 2em;
     line-height: 0.5em;
     text-align: center;
+    margin-right: 1%;
+    margin-left: 1%;
     padding: 1em;
     font-size: 18pt;
 }
@@ -37,11 +39,28 @@
 #top-nav a:hover{
     border: 1pt solid white;
     background-color: white;
-    transform: scale(1.1);
     color: black;
+    animation-name: btn-anim;
+    animation-duration: 250ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes btn-anim {
+    100% {
+        transform: scale(1.1);
+    }
 }
 
 #top-nav.active{
     background-color: #4caf50;
     color: white;
 } 
+
+#top-nav .search input[type="text"] {
+    position: relative;
+    margin-left: 370px;
+    border: 5pt solid #fff;
+    width: 35%;
+    border-radius: 25pt;
+}
+
