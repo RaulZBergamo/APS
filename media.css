@@ -1,0 +1,27 @@
+@media (max-width: 1400px){
+    #top-nav #brand{
+        padding: 1.2em;
+    }
+
+    #top-nav #brand h4{
+        font-size: 9pt;
+        margin-left: 1em;
+    }
+
+    #top-nav #branc img{
+       width: 25%;
+       padding-left: 1500px;
+    }
+
+    #top-nav a{
+        font-size: 11pt;
+    }
+
+    #top-nav .search input[type="search"]{
+        margin-left: 165px;
+    }
+
+    #btn_light_dark {
+        font-size: 11pt;
+    }
+}

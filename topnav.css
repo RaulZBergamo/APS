@@ -64,3 +64,18 @@
     border-radius: 25pt;
 }
 
+#top-nav label{
+    font-size: 30px;
+    color: white;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    justify-items: flex-end;
+    display: none;
+}
+
+#top-nav #check{
+    justify-items: flex-end;
+    display: none;
+}
+
