@@ -15,12 +15,7 @@ hr {
 }
 
 a {
-    color: white;
     text-decoration: none;
-}
-
-a:hover {
-    color: rgb(221, 221, 221);
 }
 
 p {
