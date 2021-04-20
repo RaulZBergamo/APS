@@ -1,6 +1,7 @@
 #sp{
     text-indent: 0px; /*Tirar o paragrafo dos nome*/
     text-align: left;
+    margin-bottom: 42px;
 }
 
 .names {

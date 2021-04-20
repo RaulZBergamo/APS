@@ -1,0 +1,16 @@
+#article {
+    border-style: none;
+    padding: 2.25em 0 10px 15px;
+}
+/* border-style: none;
+    padding: 2.25em 0 10px 15px;
+    margin: 25px 0 0 25px; */
+
+#article #start-h1 {
+    font-size: 3em;
+}
+
+#article p {
+    text-indent: 2em;
+}
+
