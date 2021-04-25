@@ -40,15 +40,8 @@
     border: 1pt solid white;
     background-color: white;
     color: black;
-    animation-name: btn-anim;
-    animation-duration: 250ms;
-    animation-fill-mode: forwards;
-}
-
-@keyframes btn-anim {
-    100% {
-        transform: scale(1.1);
-    }
+    transform: scale(1.1);
+    transition: transform 250ms ease-out;
 }
 
 #top-nav.active {
