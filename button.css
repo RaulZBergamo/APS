@@ -9,7 +9,6 @@
     font-size: 18pt;
     color: white;
     cursor: pointer;
-    transition: 125ms ease-in-out;
 }
 
 #btn_light_dark:hover{
@@ -17,6 +16,7 @@
     background-color: white;
     color: black;
     transform: scale(1.1);
+    transition: transform 250ms ease-out;
 }
 
 .light-theme{
@@ -27,15 +27,5 @@
 .dark-theme{
     background-color: #2d3436;
     background-image: linear-gradient(345deg, #414141 0%, #111 74%);
-    color: white;
-}
-
-.footer-dark{
-    background-color: #bbb;
-    color: #222;
-}
-
-.footer-light{
-    background-color: #222;
     color: white;
 }
