@@ -15,10 +15,4 @@ function myFunction(){
 
         document.getElementById("btn_light_dark").innerText = "Claro";
     } 
-
-    if(document.getElementsByClassName("fon").style.color=("blue")){
-
-        document.getElementsByClassName("fon").style.color=("#fcba03");
-
-    }
 }
