@@ -9,6 +9,7 @@
     font-size: 18pt;
     color: white;
     cursor: pointer;
+    transition: 125ms ease-in-out;
 }
 
 #btn_light_dark:hover{
@@ -16,7 +17,6 @@
     background-color: white;
     color: black;
     transform: scale(1.1);
-    transition: transform 250ms ease-out;
 }
 
 .light-theme{
