@@ -1,0 +1,14 @@
+img#mapa{
+    width: 200px;
+    height: 200px;
+}
+img#inseticida{
+    display: block;
+    width: 400px;
+    height: 200px;
+    margin-left: 0px;
+}
+img#colheita{
+    width: 400px;
+    height: 250px;
+}
