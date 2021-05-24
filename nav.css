@@ -76,6 +76,8 @@
 
 #credits-nav {
     border-top: solid #000 1pt;
+    border-bottom: solid #000 1pt;
+    padding-bottom: 1em;
     text-align: justify;
     margin-right: 50%;
 }

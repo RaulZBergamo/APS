@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
     border-radius: 10px;
+    background-color: #ccc;
 }
 
 .div-footer p{
@@ -10,7 +11,7 @@
 }
 
 .footer-dark{
-    background-color: #eee;
+    background-color: #ccc;
     color: #222;
 }
 
